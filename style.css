@@ -27,13 +27,13 @@ body {
   background: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
   color: #fff;
   border: none;
-  padding: 8px 16px;
+  padding: 12px;
   border-radius: 6px;
   margin: 10px;
   font-weight: 600;
 }
 .button__primary:hover {
-  background: linear-gradient(to right,  #ff512f 51%, #dd2476 100%);
+  background: linear-gradient(to right, #ff512f 51%, #dd2476 100%);
 }
 .navbar__items {
   margin-left: 5px;
@@ -42,7 +42,7 @@ body {
 /* Main Section */
 
 .container {
-  min-width: 100%;
+  max-width: 100%;
   padding: 20px;
   margin: 0 auto;
 }
@@ -54,6 +54,7 @@ body {
   border-radius: 6px;
   box-shadow: 0 25px 50px -12px #00000040;
 }
+
 .hero__text {
   font-weight: 800;
   font-size: 30px;
@@ -79,16 +80,18 @@ body {
   .navbar__brand {
     width: 150px;
   }
-  .nav__item {
-    padding: 20px 40px;
+  .button__primary {
+    padding: 20px;
     font-size: 20px;
   }
 
   .container {
-    max-width: 900px;
+    max-width: 60%;
   }
-
   .hero__description {
     width: 100%;
+  }
+  .hero__text {
+    font-size: 50px;
   }
 }
