@@ -32,8 +32,8 @@ body {
   margin: 10px;
   font-weight: 600;
 }
-.nav__item:hover {
-  background: linear-gradient(to right, #dd2476 0%, #ff512f 51%, #dd2476 100%);
+.button__primary:hover {
+  background: linear-gradient(to right,  #ff512f 51%, #dd2476 100%);
 }
 .navbar__items {
   margin-left: 5px;
