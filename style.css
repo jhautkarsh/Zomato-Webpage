@@ -5,14 +5,15 @@
 
 body {
   font-family: Merriweather, serif;
-  background-color: #f9fafc;
+  background-color: #ebf2ff;
 }
 
+/*  Header Section */
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #fff;
+  background-color: #f9fafc;
 }
 
 .navbar__brand {
@@ -22,7 +23,7 @@ body {
   width: 100%;
 }
 
-.nav__item {
+.button__primary {
   background: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
   color: #fff;
   border: none;
@@ -38,10 +39,39 @@ body {
   margin-left: 5px;
 }
 
+/* Main Section */
+
+.container {
+  min-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+.hero__image__container {
+  width: 100%;
+}
+.hero__image {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 25px 50px -12px #00000040;
+}
+.hero__text {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #1d3557;
+}
+
 @media (min-width: 768px) {
   .navbar {
     justify-content: space-between;
     padding: 10px 30px;
+  }
+
+  .hero__container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 32px;
   }
 }
 
@@ -52,5 +82,13 @@ body {
   .nav__item {
     padding: 20px 40px;
     font-size: 20px;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+
+  .hero__description {
+    width: 100%;
   }
 }
